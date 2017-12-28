@@ -1,6 +1,14 @@
+This is a quick-and-dirty summary of tasks for building a local development virtual machine with the latest stable Drupal release, its dependencies, and a few contributed modules. It is intended to be used as the basis for a future suite of ArchivesSpace-Drupal integration modules, though could be used for really any purpose. 
+
+- [ ] Include vm configuration file as an extra instead of requiring user to clone from another /jasloe/vm.git
+- [ ] Add Java task runner for use by Islandora and Search API Solr
+- [ ] Expose memory and CPU settings in config.yml
+- [ ] Add documentation on building a remote staging box on EC2 using prod.config.yml
+
 #### Dependencies
 <pre>
-ansible (2.2.2.0)
+ansible (2.2.1.0)
+vagrant (>=1.9.4)
 vagrant-auto_network (1.0.2)
 vagrant-aws (0.7.2)
 vagrant-bindfs (1.0.9)
