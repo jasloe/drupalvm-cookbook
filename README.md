@@ -37,12 +37,12 @@ drupal/toolbar_anti_flicker:^2.6\
 composer require --dev geerlingguy/drupal-vm
 </pre>
 
-#### and create a vm directory to host configuration files
+#### and create a vm directory to host configuration files and move drupal/vm/Vagranfile to drupal/Vagrantfile
 <pre>
 git clone https://github.com/jasloe/vm.git
 </pre>
 
-#### Move drupal/vm/Vagranfile to drupal/Vagrantfile
+#### 
 
 #### Modify config.yml
 <pre>
