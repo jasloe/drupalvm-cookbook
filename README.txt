@@ -1,4 +1,5 @@
 #### Dependencies
+<pre>
 ansible (2.2.2.0)
 vagrant-auto_network (1.0.2)
 vagrant-aws (0.7.2)
@@ -7,6 +8,7 @@ vagrant-cachier (1.2.1)
 vagrant-hostsupdater (1.0.2)
 vagrant-share (1.1.7)
 vagrant-vbguest (0.14.2)
+</pre>
 
 #### Create a new Drupal project using drupal-project
 <pre>
